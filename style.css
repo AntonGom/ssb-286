@@ -1,0 +1,354 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: #fff;
+    font-family: monospace;
+   background-color: #000;
+    color: #fff;
+    
+}
+
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-color: rgba(0,0,0,0.75);
+}
+
+
+h1
+{
+    font-family: 'Caveat', cursive;
+    font-size: 4.9em;
+ text-align: center;
+}
+
+h2
+{
+    font-family: 'Caveat', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+h3
+{
+font-size: 1.3em;
+    margin-left: 30px;
+}
+
+
+p
+{
+    font-size: 1.0em;
+}
+
+.paragraph
+{
+    font-size: 25px;
+	text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+.decor-line-parent
+{
+    display: flex;
+   justify-content: center;
+    margin-top: 10px
+}
+
+.decor-line
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 900px;
+    height: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+
+
+
+
+
+nav 
+{
+    
+  
+    padding: 0px;
+    margin: 0px;
+     background-image: linear-gradient(to bottom right, purple, orange);
+    
+        
+   
+}
+
+nav>ul 
+{
+	list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav>ul>li 
+{
+	
+   
+   
+	font-size: 25px;
+	text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    
+    
+    
+}
+
+li
+{
+    
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+     justify-content: center;
+    
+    
+}
+
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+   
+  margin: 0px;
+  padding: 0px;
+   
+    
+}
+
+
+.parent
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.parent2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text-image-parent
+{
+     display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: 950px;
+    
+}
+
+.form
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #000;
+    
+}
+
+.child
+{
+    padding: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-image-child
+{
+    
+    justify-content: center;
+    height: 200px;
+    width: 900px;
+    margin-top: 50px;
+    
+
+}
+
+
+
+.child2
+{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+
+
+
+.highlight
+{
+    color: #f7f ;
+}
+
+
+
+.table
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+.video
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+
+
+
+footer
+{
+     display: flex;
+    justify-content: center;
+   background-image: linear-gradient(to bottom left, purple, orange);
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 960px;
+    height: 79px;
+}
+
+.childf
+{
+ 
+    font-size: 1.1em;
+    padding: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+     
+}
+
+.top
+{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.subhead
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+a.links
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+a.links: visited
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+a.links:hover
+{
+    color: #aaa;
+    text-decoration: none;
+}
+
+.fa-facebook 
+{
+  margin-top: 3px;
+  padding: 4px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter
+{
+  margin-top: 3px;
+  padding: 4px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-pinterest
+{
+  margin-top: 3px;
+  padding: 4px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  background: #cb2027;
+  color: white;
+}
+
+.fa:hover 
+{
+    
+    background: #999;
+}
+
+
+.copyright
+{
+    text-align: center;
+}
